@@ -1,0 +1,16 @@
+---
+- hosts: kvm_video_servers
+    office
+    asterisk
+    video_servers
+  gather_facts: yes
+  become: yes
+  become_method: sudo
+
+  vars:
+    update_linux_admin_pass: false
+    update_root_pass: false
+
+  roles:
+    # Редактирует пользователей на серврере.
+   - role: users

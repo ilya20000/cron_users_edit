@@ -1,0 +1,5 @@
+- src: git@srv-glory.eurostil.ru:ansible/roles/users.git
+  scm: git
+
+#- src: git@srv-glory.eurostil.ru:ansible/install_bareos.git
+#  scm: git

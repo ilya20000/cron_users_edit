@@ -1,0 +1,2 @@
+#192.168.220.230 ansible_port: 2222
+m17-video ansible_host=10.17.1.5
