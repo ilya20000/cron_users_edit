@@ -27,7 +27,7 @@ test_playbook:
 start_playbook:
   stage: start    
   script:
-    - git clone git@srv-glory.eurostil.ru:ansible/inventory.git
+    - git clone git@srv-glory.ru:ansible/inventory.git
     - echo '123' > .ansible_vault_pass
     - rm -rf roles
     - ansible-galaxy install -r requirements.yml --roles-path roles
