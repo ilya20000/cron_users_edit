@@ -28,7 +28,7 @@ start_playbook:
   stage: start    
   script:
     - git clone git@srv-glory.eurostil.ru:ansible/inventory.git
-    - echo 'QXyU27Xw3HTkcnk6YR' > .ansible_vault_pass
+    - echo '123' > .ansible_vault_pass
     - rm -rf roles
     - ansible-galaxy install -r requirements.yml --roles-path roles
     - ansible-playbook ${PLAYBOOK} -i inventory/ --vault-password-file=.ansible_vault_pass --diff
