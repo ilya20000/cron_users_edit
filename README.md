@@ -6,7 +6,7 @@ Role Name
 Зависимости
 ------------
 requirements.yml:
-  - https://srv-glory.eurostil.ru/ansible/roles/users
+  - https://srv-glory.ru/ansible/roles/users
 
 .gitlab-ci.yml:
-  - https://srv-glory.eurostil.ru/ansible/inventory.git
+  - https://srv-glory.ru/ansible/inventory.git
